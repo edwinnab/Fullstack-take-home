@@ -12,7 +12,7 @@
 ### Backend 
 From the backend folder enter the path: `fullstack-take-home-test/backend`
 - run
-  ```bash
+```bash
 npm install
 ```
 - Then run the following command to start the server
