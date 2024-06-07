@@ -28,7 +28,7 @@ This start a Graphql server at the url `http://localhost:4000/`, the server has 
 ### Frontend
 From the frontend folder enter the path: `fullstack-take-home-test/frontend/ello-teacher`
 - run
-  ```bash
+```bash
 npm install
 ```
 - Then run the following command to start the client
@@ -38,6 +38,7 @@ npm start
 ```
 
 This start a client runs at the url `http://localhost:3000/` It has the following components 
+
 1. HomeComponent
    ![home](https://github.com/edwinnab/Fullstack-take-home/assets/50041140/ff8e8fa7-e519-4749-8679-08f700d07543)
 
