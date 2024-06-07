@@ -3,52 +3,19 @@
 
 # Ello Engineering Challenge
 
-👋 Hello,
-We are really excited about you potentially joining the team, so we designed this take home exercise to give you a taste of the challenges you may encounter in the role, and better understand what it would be like to work closely together.
+## Project Setup
+### Prerequisite
+- React
+- Apollo Client
+- Material UI
 
-Thanks for taking the time, and we hope to talk with you soon!
-
-## About Ello
-
-Ello is a forward-thinking educational technology company dedicated to revolutionizing the way children learn to read. Our mission is to empower young readers with the tools they need to become proficient and passionate readers. We believe that fostering a love for reading is essential for a child's academic and personal growth.
-
-**Note:** Please don't fork this repository or create a pull request against it. Other applicants may take inspiration from it. You should create another repository for the challenge. Once the coding challenge is completed, email your solution back to our team at [fullstack2024@ello.com](mailto:fullstack2024@ello.com).
-
-
-## Challenge
-As part of our goal to have Ello impact as many children as we can, we offer an Ello web viewer product. [https://books.ello.com](https://books.ello.com/)
-
-
-We give this to certain schools for free to allow teachers to share our books with children. 
-You are building part of the teacher-facing UI for this product,
-namely the book assignment view, where teachers can assign books to students. 
-
-The view should have the following features:-
-
-1. A search bar that allows users to search for books by title.
-2. A list of search results that displays the book title, author, and a button to add the book to the students reading list.
-3. A reading list that displays all the books that the teacher has added.
-4. A button to remove a book from the reading list.
-
-You can build this view without the concept of a "student" and just have a single reading list for the teacher.
-
-### Requirements
-- Use React as the frontend framework.
-- Showcase the use of React hooks.
-- Use [material-ui](https://mui.com/material-ui/) as the component library.
-- Write your code in the `src/frontend` directory.
-- Create components as you feel is best suited for your solution
-<img width="1013" alt="Screenshot 2024-05-15 at 19 10 51" src="https://github.com/ElloTechnology/fullstack-take-home-test/assets/3518127/bc3eb7f7-489f-4304-93f4-032bbbd38c58">
-
-
-### Data
-To get access to data that you will use for this challenge you can switch into the `src/backend` folder and run
-
-```bash
+### Backend 
+From the backend folder enter the path: `fullstack-take-home-test/backend`
+- run
+  ```bash
 npm install
 ```
-
-Then run the following command to start the server
+- Then run the following command to start the server
 
 ```bash
 npm start
@@ -56,30 +23,36 @@ npm start
 
 This start a Graphql server at the url `http://localhost:4000/`, the server has a single query `books` that returns a list of books. 
 
-```graphql
-query Books {
-  books {
-    author
-    coverPhotoURL
-    readingLevel
-    title
-  }
-}
+`Backend should be up and running before running the frontend`
+
+### Frontend
+From the frontend folder enter the path: `fullstack-take-home-test/frontend/ello-teacher`
+- run
+  ```bash
+npm install
+```
+- Then run the following command to start the client
+
+```bash
+npm start
 ```
 
-You can use this query to get the list of books to display in your frontend. You may need to adjust the `coverPhotoURL` to be a valid URL. The photos are in the `src/frontend/assets` directory.
+This start a client runs at the url `http://localhost:3000/` It has the following components 
+1. HomeComponent
+   ![home](https://github.com/edwinnab/Fullstack-take-home/assets/50041140/ff8e8fa7-e519-4749-8679-08f700d07543)
 
-### Styling Guidelines
-- Use the "Mulish" Google font
-- You can use the following colors (You don't have to use all but you can pick and choose from here)
-<img width="961" alt="Screenshot 2024-05-14 at 17 36 40" src="https://github.com/ElloTechnology/fullstack-take-home-test/assets/3518127/15922f8f-a7c7-4033-8405-76988e95afb3">
+3. MainComponent
+   ![main](https://github.com/edwinnab/Fullstack-take-home/assets/50041140/4f98160e-1456-462c-a27e-aa86116419ca)
 
+   -has the searchComponent
+   ![search](https://github.com/edwinnab/Fullstack-take-home/assets/50041140/df7d7d98-4824-41b3-be90-65f28a8cd4b6)
 
+4. ReadingListComponent
+   
+![reading](https://github.com/edwinnab/Fullstack-take-home/assets/50041140/fdf5d30e-bc4c-4203-9dd3-6ac32adc6fd9)
 
-
-### You will be evaluated on
-- Code quality and organization.
-- User experience and design.
-- Beautiful and responsive UI.
-
-
+### Functionalities
+-  search bar that allows users to search for books by title.
+-  list of search results that displays the book title, author, and a button to add the book to the students reading list.
+-  reading list that displays all the books that the teacher has added.
+-  button to remove a book from the reading list.
