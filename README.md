@@ -52,6 +52,10 @@ This start a client runs at the url `http://localhost:3000/` It has the followin
    
 ![reading](https://github.com/edwinnab/Fullstack-take-home/assets/50041140/fdf5d30e-bc4c-4203-9dd3-6ac32adc6fd9)
 
+## Demo Video
+[ello.webm](https://github.com/edwinnab/Fullstack-take-home/assets/50041140/08a02706-bd1d-484b-82e6-cdbdb5891033)
+
+
 ### Functionalities
 -  search bar that allows users to search for books by title.
 -  list of search results that displays the book title, author, and a button to add the book to the students reading list.
