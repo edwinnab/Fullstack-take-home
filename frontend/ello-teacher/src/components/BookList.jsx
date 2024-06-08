@@ -22,10 +22,6 @@ export default function BookCard({title, author, image, key}) {
             By: {author}
         </Typography>
       </CardContent>
-      <CardActions>
-        <Button size="large" style={{color:'#5ACCCC', fontWeight: 'bold', textTransform: 'none'}}>Share</Button>
-        <Button size="large" style={{color:'#FABD33', fontWeight: 'bold', textTransform: 'none'}}>Learn More</Button>
-      </CardActions>
     </Card>
   );
 }

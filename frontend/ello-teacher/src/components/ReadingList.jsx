@@ -122,8 +122,9 @@ function ReadingList({ books, removeBook}) {
               <Button size="large" 
               style={{color: "red", fontWeight: "bolder", textTransform: 'none'}}
               onClick={() => removeBook(book)}
-              >Remove</Button>
-              <Button size="large" style={{color: '#FABD33', fontWeight: "bolder", textTransform: 'none'}}>Learn More</Button>
+              >
+                Remove
+              </Button>
             </CardActions>
             </Card>
           </Grid>
