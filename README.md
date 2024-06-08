@@ -43,14 +43,16 @@ This start a client runs at the url `http://localhost:3000/` It has the followin
    ![home](https://github.com/edwinnab/Fullstack-take-home/assets/50041140/ff8e8fa7-e519-4749-8679-08f700d07543)
 
 3. MainComponent
-   ![main](https://github.com/edwinnab/Fullstack-take-home/assets/50041140/4f98160e-1456-462c-a27e-aa86116419ca)
+  ![resource](https://github.com/edwinnab/Fullstack-take-home/assets/50041140/5cf34f3d-fc30-4fe3-b2f0-a7aa546e4c6d)
+
 
    -has the searchComponent
    ![search](https://github.com/edwinnab/Fullstack-take-home/assets/50041140/df7d7d98-4824-41b3-be90-65f28a8cd4b6)
 
 4. ReadingListComponent
    
-![reading](https://github.com/edwinnab/Fullstack-take-home/assets/50041140/fdf5d30e-bc4c-4203-9dd3-6ac32adc6fd9)
+![read](https://github.com/edwinnab/Fullstack-take-home/assets/50041140/da762150-53a9-46c7-9e79-afccafbf501b)
+
 
 ## Demo Video
 [ello.webm](https://github.com/edwinnab/Fullstack-take-home/assets/50041140/08a02706-bd1d-484b-82e6-cdbdb5891033)
